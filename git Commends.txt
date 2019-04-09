@@ -1,0 +1,41 @@
+IN Git Shell
+right click on desktop and Git Bash here then type ssh-keygen [c:/user/youruser/pubkey copy kar ka git setting ma ssh
+ma past kar da]
+
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/tqisjim/google-oauth.git
+git push -u origin master
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/tqisjim/google-oauth.git
+git clone origin master
+
+
+git branch -d branch_name
+git push <remote_name> --delete <branch_name>
+git@github.com:tanveersaleem786/gitFirstProject.git
+
+
+Move new Jobs branch on github
+ git push --set-upstream origin jobs
+
+Remove File
+git rm tan.html
+git commit -m "file deleted"
+git push
+
+if you want to merge in master branch then you have to come in master branch and then merge the other branch.
+if you are at master branch after merge  you can simply push by git push
+if you after merging you go on merge branch and want to push then you have to say git push origin master
+same thing for other branch if you are on master banch after merging with tan branch and you want to puch changes on
+remote tan branch then you will write git push origin tan.
+If you are at tan branch and want to merge with master branch you need to come on maste branch for merging.
+
+https://gist.github.com/niksumeiko/8972566
